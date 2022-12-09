@@ -6,7 +6,8 @@
     <link type="text/css" rel="stylesheet" href="01.css" />
   </head>
   <body>
-    <div id="div00">
+   
+    <div id="div00" style="position: absolute;">
       <div id="div1">
         <div id="div1-1">
           您好! 请 <a href="#"><span id="span01">登录</span></a> |
@@ -18,7 +19,7 @@
         <div id="div1-2">
           <ul>
             <li>
-              <a href="#">我的账户</a>
+              <a href="#">我的账户<img src="../image/下箭头_03.png"> </a>
               <ul>
                 <li><a href="#">我的订单</a></li>
                 <li><a href="#">百宝箱</a></li>
@@ -28,7 +29,7 @@
               </ul>
             </li>
             <li>
-              <a href="#">百宝箱</a>
+              <a href="#">百宝箱<img src="../image/下箭头_03.png"></a>
               <ul>
                 <li><a href="#">旅游常识</a></li>
                 <li><a href="#">机票助手</a></li>
@@ -83,49 +84,211 @@
         </div>
         <div id="div3">
           <ul>
-            <li id="li1">首页</li>
-            <li>旅游度假</li>
-            <li>国内酒店</li>
-            <li>海外酒店</li>
-            <li>国内机票</li>
-            <li>国际机票</li>
-            <li>租车</li>
-            <li>邮轮</li>
-            <li>门票</li>
-            <li>签证</li>
-            <li>企业客户</li>
-            <li>旅游指南</li>
-            <li>新闻资讯</li>
+            <li id="li1"><a href="#"><span id="span02"> 首页</span></li>
+            <li><a href="#"><span id="span03"> 旅游度假</span></a></li>
+            <li><a href="#"><span id="span03">  国内酒店</span></a></li>
+            <li><a href="#"><span id="span03">  海外酒店</span></a></li>
+            <li><a href="#"><span id="span03">  国内机票</span></a></li>
+            <li><a href="#"><span id="span03">  国际机票</span></a></li>
+            <li><a href="#"><span id="span03">  租车</span></a></li>
+            <li><a href="#"><span id="span03">  邮轮</span></a></li>
+            <li><a href="#"><span id="span03">  门票</span></a></li>
+            <li><a href="#"><span id="span03">  签证</span></a></li>
+            <li><a href="#"><span id="span03">  企业客户</span></a></li>
+            <li><a href="#"><span id="span03">  旅游指南</span></a></li>
+            <li><a href="#"><span id="span03">  新闻资讯</span></a></li>
           </ul>
         </div>
-        <div id="div4">
-          <div id="div4-1">
+        <div id="div4" style="position: absolute;z-index: 1;">
+          <div id="div4-1" style="position: absolute;z-index: 1;">
             <div id="div4-1-1">
               <p><img style="margin:0;margin-left:5px;vertical-align: middle;" src="../image/index2011_18.gif">开始计划您的行程</p>
             </div>
-            <div id="div4-1-2">
-                 <ul>
-                  <li id="li11">度假</li>
-                  <li id="li2">酒店</li>
-                  <li id="li3">机票</li>
-                  <li id="li4">租车</li>
-                  <li id="li5">邮轮</li>
-                  <li id="li6">门票</li>
+            <div id="div4-1-2" >
+                 <ul >
+                  <li id="li11"><a href="#"><span id="span02">度假</span></a></li>
+                  <li id="li2"><a href="#"><span id="span02">酒店</span></a></li>
+                  <li id="li3"><a href="#"><span id="span02">机票</span></a></li>
+                  <li id="li4"><a href="#"><span id="span02">租车</span></a></li>
+                  <li id="li5"><a href="#"><span id="span02">邮轮</span></a></li>
+                  <li id="li6"><a href="#"><span id="span02">门票</span></a></li>
                  </ul>
-                 <div id="div4-1-2-2">
-                       <div id="div4-1-2-2-1"><span>出发地:</span><br>
-                        <select size="1" name="departure-city" style="width:202px;height: 24px;">
-                             <option selected>鲲明</option>
-                             <option>哈尔坤</option>
-                             <option>坤坤</option>
-                        </select><br>
-                        <span>目的地:</span>
-                        <select size="1" name="destination-city" style="width:202px;height: 24px;"  >
-                                <option disabled selected style="display: none;" id="option01">中文/拼音首字母</option>
-                                <option value="1">困成</option>
-                                <option value="2">怡红院</option>
-                                <option value="3">澳门赌场</option>
-                        </select><br>
+                 <div id="div4-1-2-2" >
+                       <div id="div4-1-2-2-1" style="position: absolute;z-index: 0;">
+                        <input name="chufa" placeholder="深圳" style="width: 202px;height: 20px;" id="xialakuang1">
+                        <div style="display: none;width: 200px;height: 140px;border: 1px solid #ff7a00;margin-top: 0px;position: absolute;
+                        z-index: 1;background: white;" id="xialakuang01">
+                          <div style="width: 100%;height: 30px;background: #ff7a00;margin: 0;">
+                          <span style="color: white;margin: 0;margin-left: 10px;line-height: 30px;font-size: 20px;">请选择出发地</span>
+                          </div>
+                            <div style="width: 100%;height: 170px;">
+                                      <ul id="ul1"><li>北京</li><li>成都</li><li>广州</li>
+                                      <li>杭州</li><li>济南</li><li>南京</li>
+                                      <li>上海</li><li>深圳</li><li>香港</li></ul>
+                            </div>
+                        <script type="text/javascript">
+                                   function $(id){
+                                    return document.getElementById(id)
+                                  }
+                                  function tag(tagname){
+                                  return document.getElementsByTagName(tagname)
+                                   }
+                                  $('xialakuang1').onclick=function(){
+                                  if($('xialakuang01').style.display=='none'){
+                                    $('xialakuang01').style.display='block'
+                                  }
+                                  else if($('xialakuang01').style.display=='block'){
+                                    $('xialakuang01').style.display='none'
+                                  }
+                                  }
+                                  $("ul1").onclick=function (){
+                                       var children = this.children;
+                                       var name = event.target.nodeName;
+                                       console.log(name);
+                                       if(name == "LI"){
+                                            for(i=0;i<children.length;i++){
+                                                if(children[i]===event.target){
+                                                    $("xialakuang1").value=children[i].innerText;
+                                                    $('xialakuang01').style.display='none'
+                                                }
+                                            }
+                                           
+                                       }
+
+                                  }
+
+                                 
+                        </script>
+                        </div>
+                         <br>
+                        <span>目的地:</span><br>
+                        <input style="width: 202px;height: 20px;" placeholder="中文/拼音首字母" id="xialakuang2">
+                        <div id="xialakuang02"  style="margin-top: 0;display: none;width: 600px;height: 700px;background: white; border: 1px solid #ff7a00;
+                        position:absolute;z-index: 2;">
+                        <div style="width: 100%;height: 30px;background: #ff7a00;margin: 0;">
+                            <span style="color: white;margin: 0;margin-left: 10px;line-height: 30px;font-size: 15px;">请选择目的地</span>
+                            <span style="color: black;margin: 0;margin-left: 10px;line-height: 30px;font-size: 15px;">[未限制]</span>
+                            <button style="float: right;margin:0;border: 0;padding: 0px;margin-right: 0;" onclick="getaway()"><img src="../image/closeicon.png"></button>
+                        </div>
+                        <div style="width: 98%;height: 115px;margin: 0 auto;">
+                          <div style="width: 100%;height: 30px;border-bottom: 1px solid #cccccc;">
+                            <span style="color: black;margin: 0;line-height: 30px;font-size: 15px;">周边游</span>
+                          </div>
+                          <ul id="ul2" style="margin-top: 5px;">
+                            <li>从化</li><li>东莞</li><li>德庆</li><li>恩平</li><li>佛冈</li><li>佛山</li><li>广州</li><li>惠州</li>
+                            <li>河源</li><li>惠东</li><li>江门</li><li>开平</li><li>梅州</li><li>茂名</li><li>番禺</li><li>清远</li>
+                            <li>汕头</li><li>深圳</li><li>韶关</li><li>台山</li><li>新会</li><li>云浮</li><li>阳江</li><li>湛江</li>
+                            <li>增城</li><li>中山</li><li>肇庆</li><li>珠海</li>
+                          </ul>
+                        </div>
+                        <div style="width: 98%;height: 135px;margin: 0 auto;">
+                          <div style="width: 100%;height: 30px;border-bottom: 1px solid #cccccc;">
+                            <span style="color: black;margin: 0;line-height: 30px;font-size: 15px;">国内游</span>
+                          </div>
+                          <ul id="ul3" style="margin-top: 5px;">
+                            <li>北京</li><li>成都</li><li>重庆</li><li>长沙</li><li>大连</li><li>桂林</li><li>贵阳</li><li>哈尔滨</li>
+                            <li>杭州</li><li>黄山</li><li>呼和浩特</li><li>九江</li><li>昆明</li><li>洛阳</li><li>丽江</li><li>庐山</li>
+                            <li>满洲里</li><li>南昌</li><li>南宁</li><li>南京</li><li>衢州</li><li>青岛</li><li>日照</li><li>苏州</li>
+                            <li>上海</li><li>三亚</li><li>太原</li><li>乌鲁木齐</li><li>五台山</li><li>武夷山</li><li>西安</li><li>厦门</li>
+                            <li>阳朔</li><li>永定</li><li>亚布力</li><li>张家界</li><li>郑州</li><li>周庄</li><li>中卫</li>
+                          </ul>
+                        </div>
+                        <div style="width: 98%;height: 55px;margin: 0 auto;">
+                          <div style="width: 100%;height: 30px;border-bottom: 1px solid #cccccc;">
+                            <span style="color: black;margin: 0;line-height: 30px;font-size: 15px;">港澳游</span>
+                          </div>
+                          <ul id="ul4" style="margin-top: 5px;">
+                            <li>澳门</li><li>香港</li>
+                          </ul>
+                        </div>
+                        <div style="width: 98%;height: 255px;margin: 0 auto;">
+                          <div style="width: 100%;height: 30px;border-bottom: 1px solid #cccccc;">
+                            <span style="color: black;margin: 0;line-height: 30px;font-size: 15px;">海外游</span>
+                          </div>
+                          <ul id="ul5" style="margin-top: 5px;">
+                            <li>奥克兰</li><li>阿斯塔纳</li><li>埃及</li><li>澳大利亚</li><li>巴厘岛</li><li>布鲁塞尔</li><li>巴黎</li><li>布里斯班</li>
+                            <li>比什凯克</li><li>巴基斯坦</li><li>柏林</li><li>巴西</li><li>槟城</li><li>迪拜</li><li>大溪地</li><li>杜尚别</li>
+                            <li>德国</li><li>法国</li><li>芬兰</li><li>菲律宾</li><li>哥本哈根</li><li>胡志明</li><li>赫尔辛基</li><li>华沙</li>
+                            <li>皇后镇</li><li>黄金海岸</li><li>惠灵顿</li><li>荷兰</li><li>韩国</li><li>河内</li><li>吉隆坡</li><li>金边</li>
+                            <li>基督城</li><li>基辅</li><li>几内亚</li><li>加拿大</li><li>柬埔寨</li><li>凯恩斯</li><li>开罗</li><li>肯尼亚</li>
+                            <li>伦敦</li><li>路易斯港</li><li>利比亚</li><li>老挝</li><li>兰卡威</li><li>马来西亚</li><li>马雷</li><li>莫斯科</li>
+                            <li>马尔代夫</li><li>墨尔本</li><li>明斯克</li><li>蒙古</li><li>孟加拉国</li><li>马达加斯加</li><li>美国</li><li>缅甸</li>
+                            <li>毛里求斯</li><li>曼谷</li><li>南非</li><li>尼泊尔</li><li>普吉岛</li><li>珀斯</li><li>葡萄牙</li><li>日本</li>
+                            <li>瑞士</li><li>沙巴</li><li>苏梅岛</li><li>斯里兰卡</li><li>首尔</li><li>泰国</li><li>塔什干</li><li>土耳其</li>
+                            <li>坦桑尼亚</li><li>汶莱</li><li>吴哥</li><li>万象</li><li>乌干达</li><li>新加坡</li><li>悉尼</li><li>匈牙利</li>
+                            <li>芽庄</li><li>伊朗</li><li>约旦</li><li>意大利</li><li>英国</li><li>印度</li><li>印度尼西亚</li><li>越南</li>
+                          </ul>
+                        </div>
+                         <script type="text/javascript">
+                          function getaway(){
+                            $('xialakuang02').style.display='none'
+                          }
+                          function $(id){
+                           return document.getElementById(id)
+                         }
+                         function tag(tagname){
+                         return document.getElementsByTagName(tagname)
+                          }
+                         $('xialakuang2').onclick=function(){
+                         if($('xialakuang02').style.display=='none'){
+                           $('xialakuang02').style.display='block'
+                         }
+                         else if($('xialakuang02').style.display=='block'){
+                           $('xialakuang02').style.display='none'
+                         }
+                         }
+                         $("ul2").onclick=function (){
+                              var children = this.children;
+                              var name = event.target.nodeName;
+                              console.log(name);
+                              if(name == "LI"){
+                                   for(i=0;i<children.length;i++){
+                                       if(children[i]===event.target){
+                                           $("xialakuang2").value=children[i].innerText;
+                                       }
+                                   }
+                              }
+                         }
+
+                         $("ul3").onclick=function (){
+                              var children = this.children;
+                              var name = event.target.nodeName;
+                              console.log(name);
+                              if(name == "LI"){
+                                   for(i=0;i<children.length;i++){
+                                       if(children[i]===event.target){
+                                           $("xialakuang2").value=children[i].innerText;
+                                       }
+                                   }
+                              }
+                         }
+                         $("ul4").onclick=function (){
+                              var children = this.children;
+                              var name = event.target.nodeName;
+                              console.log(name);
+                              if(name == "LI"){
+                                   for(i=0;i<children.length;i++){
+                                       if(children[i]===event.target){
+                                           $("xialakuang2").value=children[i].innerText;
+                                       }
+                                   }
+                              }
+                         }
+                         $("ul5").onclick=function (){
+                              var children = this.children;
+                              var name = event.target.nodeName;
+                              console.log(name);
+                              if(name == "LI"){
+                                   for(i=0;i<children.length;i++){
+                                       if(children[i]===event.target){
+                                           $("xialakuang2").value=children[i].innerText;
+                                       }
+                                   }
+                              }
+                         }
+               </script>
+                        </div>
+                       <br>
                         <span>关键字:</span><br>
                         <input style="width: 202px;height: 20px;" placeholder="请输入产品名称/景点">
                         <img style="margin-left: 49px;" src="../image/button.png">
@@ -223,7 +386,7 @@
                         <option>20天</option>
                         <option>30天</option>
                       </select><br>
-                      <img style="margin-left: 49px;" src="../image/button.png">
+                     <a href="#"> <img style="margin-left: 49px;" src="../image/button.png" ></a>
                        </div>
                        <div id="div4-1-2-2-6">
                               <span>景点名称(如海泉湾)</span><br>
@@ -299,7 +462,7 @@
             </script>
           </div>
 
-          <div id="block">
+          <div id="block" >
             <div class="box_big">
               <div class="box"><img src="../image/banner1.jpg" alt="" /></div>
               <div class="box"><img src="../image/banner2.jpg" alt="" /></div>
@@ -402,13 +565,8 @@
           <div id="div5-1">
             <div id="div5-1-1">
               <div id="div5-1-1-1">
-                <img src="../image/index2011_24.gif" />已经有<span
-                  style="color: orangered; font-size: 13px; line-height: 25px"
-                >
-                  31943</span
-                >人拿到了<span style="color: orange; font-size: 13px"
-                  >返现</span
-                >
+                <img src="../image/index2011_24.gif" style="vertical-align: middle;"/>已经有 <span style="color: orangered; font-size: 13px">
+                                                       31943</span>人拿到了<span style="color: orange; font-size: 13px">返现</span>
               </div>
               <div id="div5-1-1-2">
                 <img src="../image/index2011_57.gif" /><span
@@ -416,7 +574,7 @@
                   >订酒店
                   <span style="font-size: 20px; color: orange">返 </span
                   >现金</span
-                ><span style="color: #b39999"> 奖励规则及常见问题 </span>
+                ><span style="color: #b39999"> <a href="#">奖励规则及常见问题 </a></span>
               </div>
               <div id="div5-1-1-3">
                 <img src="../image/index2011_70.gif" /><apan
@@ -429,7 +587,7 @@
             <div id="div5-1-2">
               <div id="div5-1-2-1">
                 <div id="div5-1-2-1-1">特价机票</div>
-                <div id="div5-1-2-1-2">更多>></div>
+                <div id="div5-1-2-1-2"><a href="#"><span id="span02"> 更多>></span><a href="#"></a></div>
               </div>
               <div id="div5-1-2-2">
                 <ul>
@@ -450,9 +608,9 @@
                   <div id="div5-1-2-3-1-2">
                     <p>
                       <span style="color: orangered"
-                        >¥1020&nbsp;&nbsp;¥1130&nbsp;&nbsp;¥1130&nbsp;&nbsp;¥1130</span
+                        >¥1020&nbsp;&nbsp;&nbsp;¥1130&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;¥1130&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;¥1130</span
                       ><br />
-                      04-24&nbsp;&nbsp;04-18&nbsp;&nbsp;04-19&nbsp;&nbsp;04-20
+                      04-24&nbsp;&nbsp;&nbsp;04-18&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;04-19&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;04-20
                     </p>
                   </div>
                 </div>
@@ -461,20 +619,20 @@
                   <div id="div5-1-2-3-2-2">
                     <p>
                       <span style="color: orangered"
-                        >¥1230&nbsp;&nbsp;¥1230&nbsp;&nbsp;¥1400&nbsp;&nbsp;¥1400</span
+                        >¥1230&nbsp;&nbsp;&nbsp;¥1230&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;¥1400&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;¥1400</span
                       ><br />
-                      04-19&nbsp;&nbsp;04-20&nbsp;&nbsp;04-18&nbsp;&nbsp;04-21
+                      04-19&nbsp;&nbsp;&nbsp;04-20&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;04-18&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;04-21
                     </p>
                   </div>
                 </div>
                 <div id="div5-1-2-3-3">
                   <div id="div5-1-2-3-3-1">北京→成都</div>
-                  <div id="div5-1-2-3-2-2">
+                  <div id="div5-1-2-3-3-2">
                     <p>
                       <span style="color: orangered"
-                        >¥720&nbsp;&nbsp;&nbsp;¥720&nbsp;&nbsp;&nbsp;¥1010&nbsp;&nbsp;¥1010</span
-                      ><br />
-                      04-22&nbsp;&nbsp;04-24&nbsp;&nbsp;04-21&nbsp;&nbsp;04-18
+                        >¥720&nbsp;&nbsp;&nbsp;&nbsp;¥720&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;¥1010&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;¥1010</span
+                      ><br/>
+                      04-22&nbsp;&nbsp;&nbsp;04-24&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;04-21&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;04-18
                     </p>
                   </div>
                 </div>
@@ -483,9 +641,9 @@
                   <div id="div5-1-2-3-2-2">
                     <p>
                       <span style="color: orangered"
-                        >¥1090&nbsp;&nbsp;¥1090&nbsp;&nbsp;¥1090&nbsp;&nbsp;¥1270</span
-                      ><br />
-                      04-23&nbsp;&nbsp;04-23&nbsp;&nbsp;04-24&nbsp;&nbsp;04-22
+                        >¥1090&nbsp;&nbsp;&nbsp;¥1090&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;¥1090&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;¥1270</span
+                      ><br/>
+                      04-23&nbsp;&nbsp;&nbsp;04-23&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;04-24&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;04-22
                     </p>
                   </div>
                 </div>
@@ -495,8 +653,8 @@
               </div>
               <div id="div5-1-2-5">
                 <p>
-                  北京→香港&nbsp;&nbsp;单程&nbsp;&nbsp;¥1900<br />
-                  北京→东京&nbsp;&nbsp;单程&nbsp;&nbsp;￥2300
+                  北京→香港&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;单程&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span id="span01"> ¥1900</span><br />
+                  北京→东京&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;单程&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span id="span01"> ¥2300</span>
                 </p>
               </div>
             </div>
@@ -520,9 +678,9 @@
               </div>
               <div id="div5-1-3-3">
                 <p>
-                  北京远通维景国际大酒店 <span>¥702起</span><br />
-                  金茂北京威斯汀大饭店 <span>¥2473起</span><br />
-                  北京贵宾楼饭店 <span>¥898起</span>
+                  <span><a>北京远通维景国际大酒店</a> <span style="float: right;margin-right:5px;color: orange;">¥702起</span></span><br/>
+                  <span><a>金茂北京威斯汀大饭店</a> <span style="float: right;margin-right:5px;color: orange;">¥2473起</span></span><br />
+                   <span><a>北京贵宾楼饭店</a> <span style="float: right;margin-right:5px;color: orange;">¥898起</span></span>
                 </p>
               </div>
               <div id="div5-1-3-4">
@@ -953,6 +1111,7 @@
           </div>
         </div>
       </div>
+    </div>
     </div>
     <script>
       function showTime(clock) {
