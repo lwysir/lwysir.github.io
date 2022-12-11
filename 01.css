@@ -524,7 +524,6 @@ a {
   margin: 0 auto;
   width: 297px;
   height: 36.5px;
-
   border-top: 1px dashed #cccccc;
 }
 #div5-1-2-3-3-1 {
@@ -535,6 +534,27 @@ a {
   font-size: 12px;
 }
 #div5-1-2-3-3-2 {
+  width: 212px;
+  height: 26px;
+  margin-left: 0px;
+  border-left: 1px solid #cccccc;
+  margin-top: 6px;
+  float: left;
+}
+#div5-1-2-3-4 {
+  margin: 0 auto;
+  width: 297px;
+  height: 36.5px;
+  border-top: 1px dashed #cccccc;
+}
+#div5-1-2-3-4-1 {
+  width: 84px;
+  height: 36.5px;
+  float: left;
+  line-height: 36.5px;
+  font-size: 12px;
+}
+#div5-1-2-3-4-2 {
   width: 212px;
   height: 26px;
   margin-left: 0px;
