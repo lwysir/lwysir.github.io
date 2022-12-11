@@ -8,6 +8,7 @@ a {
   background: white;
   margin: 0 auto;
   position: relative;
+  width: 1583px;
 }
 #div0 {
   width: 980px;
@@ -24,13 +25,18 @@ a {
   position: relative;
   z-index: 1;
 }
+#div1-0{
+  width: 980px;
+  height: 30px;
+  margin: 0 auto;
+}
 #div1-1 {
   width: 120px;
   height: 30px;
   font-size: 13px;
   line-height: 30px;
   float: left;
-  margin-left: 301.5px;
+  margin-left: 0px;
   color: #777777;
 }
 #div1-1-1 {
@@ -46,7 +52,7 @@ a {
   height: 30px;
   width: 500px;
   float: right;
-  margin-right: 301.5px;
+  margin-right: 0px;
 }
 #span01 {
   color: #ff6600;
